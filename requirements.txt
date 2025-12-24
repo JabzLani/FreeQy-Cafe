@@ -1,0 +1,13 @@
+# Server requirements
+aiohttp>=3.8.0
+python-socketio>=5.0.0
+aiohttp-session>=2.0.0
+pandas>=1.4.0
+
+# Client requirements
+psutil>=5.9.0
+python-socketio>=5.0.0
+requests>=2.28.0
+
+# Both
+asyncio>=3.4.3

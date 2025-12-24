@@ -1,0 +1,35 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8080,
+        "ssl_enabled": false,
+        "ssl_cert": null,
+        "ssl_key": null
+    },
+    "database": {
+        "path": "universal_monitoring.db",
+        "backup_enabled": true,
+        "backup_interval_hours": 24
+    },
+    "clients": {
+        "update_interval_seconds": 10,
+        "health_check_minutes": 5,
+        "max_offline_minutes": 10
+    },
+    "sessions": {
+        "default_rate_per_hour": 1.50,
+        "currency": "USD",
+        "tax_rate_percent": 0.0
+    },
+    "alerts": {
+        "high_cpu_threshold": 90,
+        "high_memory_threshold": 90,
+        "low_disk_threshold": 90,
+        "high_temperature_threshold": 80
+    },
+    "notifications": {
+        "enabled": false,
+        "email": null,
+        "webhook_url": null
+    }
+}
